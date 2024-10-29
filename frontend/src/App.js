@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import Room from "./components/Room";
 import Chat from "./components/Chat";
 
-const socket = io("http://localhost:4000");  // Connect to backend server
+const socket = io("https://sahaithechat-backend.onrender.com");  // Connect to backend server
 
 function App() {
     const [room, setRoom] = useState("");
